@@ -1,0 +1,67 @@
+<section >
+    <div class="container text-center pt-4">
+        <h1 class="fw-bolder">PORTFOLIO COMPONENT</h1>
+        <div class="py-2 text-center">
+            <div class="line d-inline-block"></div>
+            <i class="fa-solid fa-star px-3"></i>
+            <div class="line d-inline-block"></div>
+        </div>
+         <div class="row">
+            <div class="col-4" (click)="display( img1)">
+                <div class="item position-relative">
+                    <img #img1 src="./assets/image/poert1.png" alt="" class="w-100">
+                    <div class="linehover">
+                        <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4"(click)="display(img2)">
+                <div  class="item position-relative">
+                    <img #img2 src="./assets/image/port2.png" alt="" class="w-100">
+                    <div class="linehover">
+                        <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+            <div  class="col-4"(click)="display( img3)">
+                <div class="item position-relative">
+                    <img #img3 src="./assets/image/port3.png" alt="" class="w-100">
+                    <div class="linehover">
+                        <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4"(click)="display(img1)">
+                <div class="item position-relative">
+                    <img #img1  src="./assets/image/poert1.png" alt="" class="w-100">
+                    <div class="linehover">
+                        <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+            <div  class="col-4"(click)="display(img2)">
+                <div class="item position-relative">
+                    <img #img2 src="./assets/image/port2.png" alt="" class="w-100">
+                    <div class="linehover">
+                        <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4"(click)="display(img3)">
+                <div class="item position-relative">
+                    <img #img3 src="./assets/image/port3.png" alt="" class="w-100">
+                    <div class="linehover">
+                        <i class="text-white fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+        </div> -
+         
+    </div>
+</section>
+ <div id="disimg" [ngClass]="{'':check == true ,'d-none':check == false}" (click)="this.check = false">
+    <div class="img" >
+        <img [src]="srcImg " alt="" class="w-100" >
+        
+    </div>
+ </div>

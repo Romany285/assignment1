@@ -1,0 +1,26 @@
+.line{
+    background-color: #2C3E50;
+    width: 80px;
+    height: 4px;
+    }
+    .fa-star{
+    position: relative;
+    left: 0;
+    top: 3px;
+    color:#2C3E50 ;
+    }
+    h1{
+       color:#2C3E50 ;
+    }
+    .btn{
+        background-color: #1ABC9C;
+        color: white;
+    }
+    input{
+        border: 1px solid rgba(255, 255, 255, 0.24);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.096);
+        
+    }
+    .inputs{
+        width: 60%;
+    }

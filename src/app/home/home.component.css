@@ -1,0 +1,17 @@
+#home{
+    background-color: #1ABC9C;
+     
+}
+img{
+    width: 35%;
+}
+.line{
+background-color: #fff;
+width: 70px;
+height: 4px;
+}
+.fa-star{
+position: relative;
+left: 0;
+top: 3px;
+}

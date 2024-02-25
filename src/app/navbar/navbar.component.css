@@ -1,0 +1,13 @@
+.navbar{
+    background-color: #2C3E50 !important;
+}
+.nav-link ,.navbar-brand{
+    color: #fff;
+    font-weight: 700;
+    margin-inline: 8px;
+}
+.active{
+    background-color: #1ABC9C;
+    color: white !important;
+    border-radius: 10px;
+}
